@@ -1,0 +1,129 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "4f866d2d-f448-4fad-908a-69f981d91a23",
+            "actions": [
+                {
+                    "name": "Action",
+                    "type": "Button",
+                    "id": "363f70e7-506e-4352-b625-4fafeaac2650",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Sprint",
+                    "type": "Button",
+                    "id": "f2f735cb-5aeb-43cb-b1c0-08ebf5afb505",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Crouch",
+                    "type": "Button",
+                    "id": "ef462f88-904a-42ce-820a-ee78072399c6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "f9b88b67-bab2-409a-bc74-26fb6b497922",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "4b0fd7d1-7080-4ae0-b7c2-9ccb57bd14e5",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "56a1eeff-2707-445d-b07b-1aa5909794e8",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboardandmouse",
+                    "action": "Action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "891443e3-2869-4be8-94c9-bc62cb6f1e32",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboardandmouse",
+                    "action": "Action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "acbd4edb-a787-427e-b2df-55b0df5246bb",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboardandmouse",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a724fb73-9d91-4e5b-8be1-64703163f8c5",
+                    "path": "<Keyboard>/leftCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboardandmouse",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a77b1050-2e6b-4a11-9332-3a5581a98262",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboardandmouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "keyboardandmouse",
+            "bindingGroup": "keyboardandmouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

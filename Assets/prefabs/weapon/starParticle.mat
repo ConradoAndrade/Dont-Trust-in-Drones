@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: starParticle
+  m_Shader: {fileID: -6465566751694194690, guid: 1895cb78ca4e6e44ca8bcd9bd2401034,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_609515f196d246179a2bcc50aa764189:
+        m_Texture: {fileID: 2800000, guid: b4a087cba551fd045baf15d78cf0350b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: 4c7cbe18ed8044725bafa532fbd5ec8e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a25ab0a1c53e418e89e2cab2d078fe7b_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 800f79981f9714d46bb0a87511501000, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_41760c409cab415f8139114eb75ed13e: 1
+    - Vector1_7f1c46a294ba41519615933af8b75ed6: 3.22
+    - _isTATE: 0
+    - _state: 1
+    m_Colors:
+    - Color_e985d909d5ff479991f2c671c71b7a91: {r: 0.7607843, g: 0.41097954, b: 0,
+        a: 0}
+    - Color_e985d909d5ff479991f2c671c71b7a91_1: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_1d62a7458ff94d9bbf1f13f1aeddcdd0: {r: -1.2, g: -1.19, b: 0, a: 0}
+    - Vector2_9669ca044906469783045a27878d4c28: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
