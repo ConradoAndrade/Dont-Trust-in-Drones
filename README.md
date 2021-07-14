@@ -1,4 +1,4 @@
-![Alt text](buid/gameimage.png?raw=true "game image")
+![Alt text](/build/gameimage.png?raw=true "game image")
 
 # Dont Trust in Drones
 
